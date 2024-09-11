@@ -1,0 +1,46 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}
+.main {
+  background-color: hsl(0, 0%, 12%);
+  width: 145px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main img {
+  width: 40px;
+  border-radius: 20px;
+}
+.name {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.country {
+  color: hsl(75, 94%, 57%);
+  font-size: 7px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.desc {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 7px;
+}
+.links div {
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 5px;
+  font-size: 7px;
+  color: hsl(0, 0%, 100%);
+  padding: 5px;
+  border-radius: 5px;
+}
